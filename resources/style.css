@@ -52,6 +52,9 @@ header .content {
 }
 
 header .logo {
+    color: #4a4a4a;
+    font-family: "Roboto Mono Regular", sans-serif;
+    font-size: 1.5rem;
     flex: 1;
 }
 
@@ -65,6 +68,7 @@ nav li {
 
 nav a {
     color: #4a4a4a;
+    font-family: "Roboto-Regular", sans-serif;
     font-size: 1rem;
     line-height: 1.6;
     vertical-align: bottom;
@@ -176,7 +180,7 @@ header .mobile {
 }
 
 #sign-up-cta .striking {
-    font-family: "Rubik", sans-serif;
+    font-family: "Rubik-Regular", sans-serif;
     padding-bottom: 0.75rem;
 }
 
@@ -428,8 +432,10 @@ footer {
 
 footer .content {
     color: white;
+    font-family: "Roboto-Regular", sans-serif;
     font-size: 0.75rem;
     display: flex;
+    padding: 1.5rem 2rem;
 }
 
 footer .copyright {
