@@ -421,3 +421,23 @@ header .mobile {
 
 /* FOOTER */
 
+footer {
+    background-color: #9b9b9b;
+    padding: 1.5rem 2rem;
+}
+
+footer .content {
+    color: white;
+    font-size: 0.75rem;
+    display: flex;
+}
+
+footer .copyright {
+    flex-grow: 1;
+}
+
+@media only screen and (max-width: 600px) {
+    footer .content {
+        font-size: 0.625rem;
+    }
+}
